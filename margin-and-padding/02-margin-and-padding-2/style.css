@@ -1,27 +1,48 @@
 body {
   background: #eee;
   font-family: sans-serif;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
 
 .card {
+  box-sizing: inherit;
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding-top: 1px;
+  padding-bottom: 2px;
 }
 
 .title {
+  box-sizing: inherit;
   background: #e3f4ff;
+  padding:8px;
+  margin: 8px;
 }
 
 .content {
+  box-sizing: inherit;
   background: #e3f4ff;
+  padding:8px;
+  margin: 8px;
 }
 
 .button-container {
+  box-sizing: inherit;
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  margin: 8px;
 }
 
 button {
+  box-sizing: inherit;
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px 16px;
+  margin:0 auto;
+  /* margin-bottom: 8px; */
 }

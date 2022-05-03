@@ -1,0 +1,20 @@
+.class1{
+    background-color:rgb(245, 167, 167);
+    font-size:1.5rem;
+}
+.cooler{
+    font-size: 2rem;
+}
+
+#firstID{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3rem;
+    color:rgb(6, 59, 205);
+}
+
+#secondID{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    background-color: rgb(129, 253, 129);
+    font-weight: bold;
+}
